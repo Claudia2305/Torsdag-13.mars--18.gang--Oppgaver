@@ -70,6 +70,15 @@ let people = [
 },
 ]
 
+console.log(people);
+
+let storeItems ={
+  fruits: ['banana', 'apple', 'pineapple'],
+
+  miilk: ['cocoamilk', 'cowmilk', 'dietmilk'],
+};
+
+console.log(storeItems.fruits[1])
 
 
 /*
