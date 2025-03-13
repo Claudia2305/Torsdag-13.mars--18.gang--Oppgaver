@@ -1,5 +1,4 @@
 /*
-
 //UNDERVISNING
 
 //Flat Array
@@ -52,15 +51,33 @@ let personOne = {
 
 console.log(personOne.isTeaching);
 
+let people = [
+  {
+    name: 'Anders',
+    age: 21,
+    isAtFontenehusetBergen: true 
+},
+{
+  name: 'Julie',
+  age: 27,
+  isAtFontenehusetBergen: true
+
+},
+{
+  name: 'Adeleide',
+  age: 300,
+  isAtFontenehusetBergen: true,
+},
+]
+
+
+
 /*
 Oppgave 2
 
 1. lag et object for et fotballag, et band etc, det skal inneholde et navn og et antall
 2. Console log ulike elementer i fra object
 3 lag 3 objects, lag en array av forskjellige navnene fra objectene
-
-
-
 
 
 Oppgave 3
@@ -89,12 +106,9 @@ legg til navn, adresse, nettside, avdelinger- dikte opp, antall medlemmer- dikte
 
 console.log den nye avdelingen avdeling
 
-
 */
 
 /**
- 
-
 
 const fontenehus = [
   {
@@ -129,8 +143,6 @@ const fontenehus = [
   },
 ];
 
-
-
 let aTag = document.createElement('a');
 aTag.textContent = 'Fontenehuset Trondheim';
 aTag.target = '_blank';
@@ -159,8 +171,6 @@ document.body.appendChild(aTag);
 
 
 //
-
- 
 
 let list = document.querySelector('#list');
 let addBtn = document.querySelector('#addBtn');
