@@ -25,6 +25,15 @@ let newElement = document.createElement('h1');
 newElement.textContent = cities[1];
 document.body.appendChild(newElement);
 
+const frukt = ['banan', 'eple', 'kiwi','pære'];
+
+console.log(frukt[3]);
+
+let secondElement = document.createElement("h1");
+secondElement.textContent = frukt[0];
+document.body.appendChild(secondElement);
+
+
 /*
 Oppgave 1
 
