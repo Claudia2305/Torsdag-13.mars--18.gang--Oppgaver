@@ -5,7 +5,8 @@
 1. Vi lager en array og console log det som er i array
 2. Vi lager et element i HTML som vi kan putte array element inn i
 3. Vi går gjennom stegene for å få teksten ut på siden
-4. Vi ser på måter å få hele array ut som liste, hvordan vi kan få lengden på array og hvordan vi kan få tak i siste element i array
+4. Vi ser på måter å få hele array ut som liste, hvordan vi kan få 
+lengden på array og hvordan vi kan få tak i siste element i array
 
 */
 
@@ -32,7 +33,6 @@ console.log(frukt[3]);
 let secondElement = document.createElement("h1");
 secondElement.textContent = frukt[0];
 document.body.appendChild(secondElement);
-
 
 /*
 Oppgave 1
